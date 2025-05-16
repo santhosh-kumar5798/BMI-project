@@ -1,5 +1,5 @@
 {
-  "homepage": "https://santhosh-kumar5798.github.io/BMI-project",
+  "homepage": "https://santhosh-kumar5798.github.io/BMI-project/",
   "name": "bmi-project",
   "private": true,
   "version": "0.0.0",
@@ -9,8 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-page -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-page -d dist"
   },
   "dependencies": {
     "react": "^19.1.0",
